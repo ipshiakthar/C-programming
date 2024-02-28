@@ -1,0 +1,16 @@
+//Write a C-program to swap two numbers using third temporary variable.
+#include<stdio.h>
+int main()
+{
+int a;
+int b;
+int temp;
+printf("Enter the values of a and b:");
+scanf("%d%d",&a,&b);
+temp=a;
+a=b;
+b=temp;
+printf("The new value of a is %d\n",a);
+printf("The new value of b is %d\n",b);
+return 0;
+}
