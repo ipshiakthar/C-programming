@@ -1,4 +1,4 @@
-//Write a C-program to add two integer numbers.
+//Write a C-Program to add two integer numbers.
 #include<stdio.h>
 int main()
 {
