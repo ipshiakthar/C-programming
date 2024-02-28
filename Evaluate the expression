@@ -1,0 +1,17 @@
+//Write a C-program which evaluate the expression y=4x+3 if x is greater than 10 or y=7x-9 , x and y are positive integers.
+#include<stdio.h>
+int main()
+{
+int x,y;
+printf("Enter the value of x:");
+scanf("%d",&x);
+if(x>10)
+{
+y=(4*x+3);
+printf("%d",y);
+} else {
+y=(7*x-9);
+printf("%d",y);
+}
+return 0;
+}
